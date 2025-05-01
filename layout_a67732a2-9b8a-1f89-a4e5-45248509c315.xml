@@ -1,0 +1,27 @@
+<Package>
+  <Chunk Id="1000" Marker="Launch">
+    <FileGroup DestinationPath="." SourcePath="." Include="*.*" />
+    <FileGroup DestinationPath=".\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64" SourcePath=".\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64" Include="*.*" />
+    <FileGroup DestinationPath=".\Engine\Binaries\Win64" SourcePath=".\Engine\Binaries\Win64" Include="*.*" />
+    <FileGroup DestinationPath=".\Engine\Binaries\WinGDK" SourcePath=".\Engine\Binaries\WinGDK" Include="*.*" />
+    <FileGroup DestinationPath=".\Engine\Content\SlateDebug\Fonts" SourcePath=".\Engine\Content\SlateDebug\Fonts" Include="*.*" />
+    <FileGroup DestinationPath=".\Engine\Programs\CrashReportClient\Content\Paks" SourcePath=".\Engine\Programs\CrashReportClient\Content\Paks" Include="*.*" />
+    <FileGroup DestinationPath=".\Pal\Binaries\WinGDK" SourcePath=".\Pal\Binaries\WinGDK" Include="*.*" />
+    <FileGroup DestinationPath=".\Pal\Binaries\WinGDK\D3D12" SourcePath=".\Pal\Binaries\WinGDK\D3D12" Include="*.*" />
+    <FileGroup DestinationPath=".\Pal\Content\Paks" SourcePath=".\Pal\Content\Paks" Include="*.*" />
+    <FileGroup DestinationPath=".\Pal\Plugins\DLSS\Binaries\ThirdParty\Win64" SourcePath=".\Pal\Plugins\DLSS\Binaries\ThirdParty\Win64" Include="*.*" />
+    <FileGroup DestinationPath=".\Pal\Plugins\Wwise\ThirdParty\WinGC_vc160\Release\bin" SourcePath=".\Pal\Plugins\Wwise\ThirdParty\WinGC_vc160\Release\bin" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources" SourcePath=".\Resources" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\de" SourcePath=".\Resources\de" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\en" SourcePath=".\Resources\en" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\es" SourcePath=".\Resources\es" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\fr" SourcePath=".\Resources\fr" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\it" SourcePath=".\Resources\it" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\ja" SourcePath=".\Resources\ja" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\ko" SourcePath=".\Resources\ko" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\pt-BR" SourcePath=".\Resources\pt-BR" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\ru" SourcePath=".\Resources\ru" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\zh-Hans" SourcePath=".\Resources\zh-Hans" Include="*.*" />
+    <FileGroup DestinationPath=".\Resources\zh-Hant" SourcePath=".\Resources\zh-Hant" Include="*.*" />
+  </Chunk>
+</Package>

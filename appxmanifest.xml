@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap uap3 desktop desktop6 wincap rescap" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  <Identity Name="PocketpairInc.Palworld" Publisher="CN=5CB38C77-22C8-441B-B380-4749CAF6E325" Version="0.6.9037.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Palworld</DisplayName>
+    <PublisherDisplayName>Pocketpair, Inc</PublisherDisplayName>
+    <Logo>Resources\StoreLogo.png</Logo>
+    <Description>ms-resource:AppDescription</Description>
+    <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+    <desktop6:FileSystemWriteVirtualization>disabled</desktop6:FileSystemWriteVirtualization>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.DirectXRuntime" MinVersion="9.29.1974.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="en" />
+    <Resource Language="zh-Hant" />
+    <Resource Language="zh-Hans" />
+    <Resource Language="es" />
+    <Resource Language="de" />
+    <Resource Language="fr" />
+    <Resource Language="it" />
+    <Resource Language="ko" />
+    <Resource Language="ru" />
+    <Resource Language="ja" />
+    <Resource Language="pt-BR" />
+  </Resources>
+  <Applications>
+    <Application Id="AppPalShipping" Executable="Pal\Binaries\WinGDK\Palworld-WinGDK-Shipping.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:AppDisplayName" Square150x150Logo="Resources\Logo.png" Square44x44Logo="Resources\SmallLogo.png" Description="ms-resource:AppDescription" ForegroundText="dark" BackgroundColor="#000040">
+        <uap:SplashScreen Image="Resources\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-xbl-6b210a9c" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-xbl-multiplayer" />
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="appLicensing" />
+    <rescap:Capability Name="unvirtualizedResources" />
+  </Capabilities>
+</Package>
